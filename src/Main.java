@@ -1,6 +1,6 @@
 import it.polimi.shapes.Circle;
-import it.polimi.shapes.Square;
 import it.polimi.shapes.Rectangle;
+import it.polimi.shapes.Square;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,5 +11,16 @@ public class Main {
         System.out.println(r.getArea());
         System.out.println(s.getArea());
         System.out.println(c.getArea());
+
+        Circle sh = new Circle(10.0);
+
+        System.out.println(sh.getArea());
+
+        r.scale(2);
+        System.out.println(r.getArea());
+
+        s.scale(2);
+        System.out.println(s.getArea());
+
     }
 }

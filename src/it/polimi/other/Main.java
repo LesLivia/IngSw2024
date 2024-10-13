@@ -1,7 +1,5 @@
 package it.polimi.other;
 
-import it.polimi.other.Data;
-
 public class Main {
     public static void main(String[] args) {
         Data[] d_array = new Data[10];
@@ -47,7 +45,14 @@ public class Main {
         // (il valore degli attributi di d1 è stato copiato in d2)
         d2.setAnno(2024);
 
-        d1.print();
-        d2.print();
+        try {
+            d1.print();
+            d2.print(); // solleva un'eccezione perchè l'attributo t non è stato definito
+        }
+        catch (NullPointerException e) {
+            System.out.println("Si è verificato un errore.");
+        }
+
+        System.out.println("Termine del programma.");
     }
 }

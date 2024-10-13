@@ -1,6 +1,6 @@
 package it.polimi.shapes;
 
-public class Rectangle extends Shape {
+public class Rectangle extends Shape implements Scalable {
     public double base;
     protected double height;
 
@@ -33,6 +33,12 @@ public class Rectangle extends Shape {
     @Override
     public double getPerimeter() {
         return 2 * (base + height);
+    }
+
+    @Override
+    public void scale(int x) {
+        this.base = this.base * x;
+        this.height = this.height * x;
     }
 
 }

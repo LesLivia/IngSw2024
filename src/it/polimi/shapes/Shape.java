@@ -1,13 +1,10 @@
 package it.polimi.shapes;
 
-public class Shape {
+// Shape non va istanziata, definisce soltanto i metodi astratti
+public abstract class Shape {
 
-    public double getArea() {
-        return 0;
-    }
+    public abstract double getArea();
 
-    public double getPerimeter() {
-        return 0;
-    }
+    public abstract double getPerimeter();
 
 }

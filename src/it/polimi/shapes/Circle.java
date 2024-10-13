@@ -20,4 +20,8 @@ public class Circle extends Shape {
         return 3.14 * this.getRadius() * this.getRadius();
     }
 
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
 }
