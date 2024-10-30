@@ -31,7 +31,7 @@ public class Data {
         this.giorno = 0;
         this.mese = 0;
         this.anno = 0;
-        // Osservare il diverso comportamento di other.Main abilitando la riga 35
+        // Osservare il diverso comportamento di other.it.polimi.Main abilitando la riga 35
         // this.t = new Time(0, 0, 0);
     }
 

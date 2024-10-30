@@ -1,3 +1,5 @@
+package it.polimi;
+
 import it.polimi.shapes.Circle;
 import it.polimi.shapes.Rectangle;
 import it.polimi.shapes.Square;
