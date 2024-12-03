@@ -1,4 +1,4 @@
-import msg.Server;
+package msg;
 
 public class MsgServerMain {
     public static void main(String[] args) {
